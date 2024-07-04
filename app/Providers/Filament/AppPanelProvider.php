@@ -48,6 +48,8 @@ class AppPanelProvider extends PanelProvider
                 // 'success' => Color::Emerald,
                 'warning' => Color::Orange,
             ])
+            ->brandLogo(asset('images/hiraya-full.png'))
+            ->favicon(asset('images/hiraya-blue.png'))
             ->discoverResources(in: app_path('Filament/App/Resources'), for: 'App\\Filament\\App\\Resources')
             ->discoverPages(in: app_path('Filament/App/Pages'), for: 'App\\Filament\\App\\Pages')
             ->pages([
